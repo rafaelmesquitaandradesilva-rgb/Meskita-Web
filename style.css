@@ -1,0 +1,59 @@
+boby {
+	font-family: Times New Roman, serif;
+}
+
+#titulo {
+	color: black;
+	background-color: lightcoral;
+	font-size: 30px;
+}
+
+.subtitulo {
+	color: black;
+	box-shadow: 3px 3px 10px gray;
+}
+
+p {
+	max-width: 800px;
+	margin: auto;
+}
+
+a:hover {
+	color: darkgreen;
+}
+
+h3 {
+	color: black;
+	margin: auto;
+	max-width: 800px;
+}
+
+.progresso {
+	max-width: 800px;
+	margin: auto;
+}
+
+.galeria {
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+.img-fluida {
+	max-width: 100%;
+	height: auto;
+}
+
+.video-wrapper {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	max-width: 900px;
+	margin: 0 auto;
+}
+
+.video-wrapper iframe {
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
