@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="icon" href="logo.png" type="image/x-icon">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<img src="logo.png" width="250" height="200" style="display:block; margin:auto;" title="Logo do canal" class="img-fluida">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fórmulário</title>
+</head>
+<body style="background-color:#a9da88;">
+
+	
+		<h3 align="center"><a href="index.html">Voltar</h3></a>
+			<hr>
+
+		<h1 style="color:black ;" align="center">Caso você queria, preencha o formulário a seguir</h1>
+			<p align="center">
+				As perguntas a seguir, serão necessárias para o <b>Meskita Cálculos</b> saber se você tem ou não dificuldades em ciências exatas ou humanas para te ajudar em determinados assuntos e diciplinas.
+			</p>
+
+		<br><br>
+
+			<form>
+				<fieldset class="formulario1">
+					<h2><legend>Informações importantes</legend></h2>
+
+				<label for="idade">Qual é a sua idade?</label><br>
+				<input type="number" name="idade" id="idade" min="0" max="99" required placeholder="Digite Sua Idade">
+
+				<br><br>
+
+				Em qual série escolar você se encontra?<br>
+				<select name="série" id="série">
+					<option selected>1° ano</option>
+					<option>2° ano</option>
+					<option>3° ano</option>
+					<option>4° ano</option>
+					<option>5° ano</option>
+					<option>6° ano</option>
+					<option>7° ano</option>
+					<option>8° ano</option>
+					<option>9° ano</option>
+					<option>1° EM</option>
+					<option>2° EM</option>
+					<option>3° EM</option>
+					<option>Ensino Médio + Curso Técnico</option>
+					<option>Faculdade</option>
+					<option>Curso Técnico</option>
+					<option>Formado(a)</option>
+				</select>
+
+				<br><br>
+
+				<label for="dificuldades">Você tem dificuldade em exatas?</label><br>
+				<input type="radio" name="dificuldades" value="Sim">Sim
+				<input type="radio" name="dificuldades" value="Não">Não
+
+
+				<br><br>
+
+				<label for="qual">Se sim, qual é? - Opcional</label><br>
+				<input type="text" name="qual" id="qual" size="50" maxlength="500" >
+
+				<br><br>
+
+				<label for="matéria">Quais dessas matérias você mais tem dificuldade?</label>
+				<br><br>
+				<input type="checkbox" name="Matemática">Matemática
+				<input type="checkbox" name="Física">Física
+				<input type="checkbox" name="Química">Química
+
+
+				<br><br>
+
+				<label for="humanas">Você tem dificuldade em humanas?</label><br>
+				<input type="radio" name="humanas" value="sim">Sim
+				<input type="radio" name="humanas" value="não">Não
+
+				<br><br>
+
+				<label for="quais">Se sim, qual é? - Opcional</label><br>
+				<input type="text" name="quais" id="quais" size="50" maxlength="500">
+
+				<br><br>
+
+				<label for="matéria">Quais dessas matérias você mais tem dificuldade?</label>
+				<br><br>
+				<input type="checkbox" name="Português">Português
+				<input type="checkbox" name="Biologia">Biologia
+				<input type="checkbox" name="Geografia">Geografia
+				<input type="checkbox" name="Filosofia e Sociologia">Filosofia e Sociologia
+				<input type="checkbox" name="Literatura">Literatura
+				<input type="checkbox" name="Inglês">Inglês
+					</fieldset>
+
+				<br><br>
+				<details>
+					<summary>Formulário Extra</summary>
+					<fieldset class="formulario2">
+						<h2><legend>Extras</legend></h2>
+							<label for="msg"></label>Se você quiser, pode fazer uma breve descrição sobre você:<br>
+							<textarea id="msg" class="msg" cols="20" rows="5" maxlength="500" placeholder="Digite aqui"></textarea>
+					<br><br>
+								<label for="cor" id="cor">Selecione uma cor</label><br>
+								<input type="color" name="cor" id="cor">
+					</fieldset>
+				</details>
+
+				<br>
+					<div style="text-align: center;">
+						<input type="submit" value="Enviar">
+						<input type="reset" value="Limpar">
+						<input type="button" value="Clique aqui!" onclick="alert('Lembrando que esse formulário não é obrigatório preencher');">
+					</div>
+			</form>
+				<br><br>
+</body>
+</html>
